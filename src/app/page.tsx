@@ -1,8 +1,5 @@
 "use client";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -55,7 +52,7 @@ export default function Home() {
             <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-full"></div>
           </h2>
           <p className="text-muted-foreground max-w-xl">
-            Experienced software developer with over 7 years of commercial experience, focused on delivering high-quality front-end solutions using React, Angular, and TypeScript. I bring strong problem-solving skills and a collaborative approach to working within development teams. I'm motivated by opportunities to take ownership of projects and make a meaningful impact through well-crafted software.
+            Experienced software developer with over 7 years of commercial experience, focused on delivering high-quality front-end solutions using React, Angular, and TypeScript. I bring strong problem-solving skills and a collaborative approach to working within development teams. I&apos;m motivated by opportunities to take ownership of projects and make a meaningful impact through well-crafted software.
           </p>
         </section>
 
@@ -186,7 +183,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground flex flex-col gap-2">
                 <ul className="list-disc list-inside">
-                  <li>Entrusted to work on the company's biggest client, delivering critical accessibility features with React and GraphQL</li>
+                  <li>Entrusted to work on the company&apos;s biggest client, delivering critical accessibility features with React and GraphQL</li>
                   <li>Significantly improved the existing codebase by clearing technical debt and promoting best practices across multiple teams</li>
                   <li>Delivered high priority features under intense time pressure and ensured accessibility standards were met on a shared component library</li>
                 </ul>
